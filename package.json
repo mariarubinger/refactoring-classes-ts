@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rocketseat/unform": "^1.6.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/react-router": "^5.1.13",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
     "axios": "^0.21.1",
@@ -16,6 +18,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.2.3",
     "yup": "^0.32.9"
   },
   "scripts": {
@@ -44,6 +48,13 @@
     ]
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/react-modal": "^3.12.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.9",
     "json-server": "^0.16.3"
   }
 }
